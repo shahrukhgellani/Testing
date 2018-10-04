@@ -1,0 +1,80 @@
+               /* Wraper class for four div's */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px;  
+    /* column-gap: 1em;
+    row-gap: 1em;
+ */
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    color: #EE3D3F;
+}
+p{
+    font-family: 'Segoe UI';
+}
+.landing {
+    height: 30em;
+    width: 100%;
+    background-image: linear-gradient(to right, #000000,#EE3D3F,#000000);
+    display: grid;
+     padding: 30px;
+    
+     
+    /* border-radius: 5px; */
+   
+   
+}
+.borderBottom{
+    /* border-bottom: 2px #EE3D3F solid; */
+
+
+}
+.butn{
+    margin: 10px 10px 10px 0px;
+}
+
+/* Design of Grid */
+.gridDesign1
+{
+    
+    padding: 40px 15px 15px 40px;
+    margin: 30px 10px 10px 30px;
+   
+ }
+.gridDesign2
+{ 
+    
+    padding: 40px 40px 15px 15px;
+    margin: 30px 30px 10px 10px;
+   
+}
+.gridDesign3
+{
+    
+    padding: 15px 15px 40px 40px;
+    margin: 10px 10px 30px 30px;
+   }
+.gridDesign4
+{
+    
+    padding: 15px 40px 40px 15px;
+    margin: 10px 30px 30px 10px;
+   
+}
+.css{
+    background-image: linear-gradient(to right top,#a1ffce, #faffd1);
+    padding: 0;
+
+}
+.pic
+{
+    border-top: #EE3D3F solid 2px;
+    border-left: #EE3D3F solid 2px;
+    max-width: fit-content;
+  
+}
